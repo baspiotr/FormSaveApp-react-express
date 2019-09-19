@@ -19,7 +19,8 @@
         "express": "^4.17.1",
         "joi": "^14.3.1",
         "mongoose": "^5.7.1",
-        "rimraf": "^3.0.0"
+        "rimraf": "^3.0.0",
+        "serialize-error": "^4.1.0"
     },
     "devDependencies": {
         "babel-eslint": "^10.0.3",
