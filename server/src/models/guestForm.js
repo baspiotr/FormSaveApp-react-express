@@ -20,7 +20,9 @@ const validateGuestForm = function(body) {
     const schema = {
         firstName: Joi.string().required(),
         lastName: Joi.string().required(),
-        email: Joi.email().required(),
+        email: Joi.string()
+            .email()
+            .required(),
         eventDate: Joi.date().required(),
     };
 
