@@ -12,12 +12,13 @@
         "test": "jest --watchAll --runInBand"
     },
     "dependencies": {
+        "@hapi/joi": "^16.1.2",
+        "@hapi/joi-date": "^2.0.0",
         "babel-cli": "^6.26.0",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "babel-preset-env": "^1.7.0",
         "express": "^4.17.1",
-        "joi": "^14.3.1",
         "mongoose": "^5.7.1",
         "rimraf": "^3.0.0",
         "serialize-error": "^4.1.0"

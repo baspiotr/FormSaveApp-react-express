@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Joi from 'joi';
+const Joi = require('@hapi/joi').extend(require('@hapi/joi-date'));
 
 const guestFormSchema = new mongoose.Schema({
     firstName: {
@@ -17,16 +17,18 @@ const guestFormSchema = new mongoose.Schema({
 });
 
 const validateGuestForm = function(body) {
-    const schema = {
+    const schema = Joi.object({
         firstName: Joi.string().required(),
         lastName: Joi.string().required(),
         email: Joi.string()
             .email()
             .required(),
-        eventDate: Joi.date().required(),
-    };
+        eventDate: Joi.date()
+            .format('YYYY-MM-DD')
+            .utc(),
+    });
 
-    return Joi.validate(body, schema);
+    return schema.validate(body);
 };
 
 const GuestForm = mongoose.model('guest_form', guestFormSchema);
