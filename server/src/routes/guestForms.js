@@ -12,3 +12,5 @@ router.post('/', async function(req, res) {
         res.status(400).send({ success: false, error: getErrorMessage(error) });
     }
 });
+
+export { router as guestFormsRoute };
