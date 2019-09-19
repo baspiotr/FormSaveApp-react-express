@@ -69,3 +69,5 @@ dist/
 tmp/
 
 .DS_Store
+
+yarn.lock
