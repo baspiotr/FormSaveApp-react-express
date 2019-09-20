@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The GuestForm renders as expected 1`] = `
+<form
+  className="sc-bdVaJa brptmd"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="firstName"
+    >
+      Imię
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="lastName"
+    >
+      Nazwisko
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="eventDate"
+    >
+      Data eventu
+    </label>
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-EHOje iuNqqw"
+    type="submit"
+  >
+    Wyślij
+  </button>
+  <div
+    className="sc-ifAKCX fRwpgf"
+  >
+    
+  </div>
+  <div
+    className="sc-bxivhb cxIWBC"
+  >
+    
+  </div>
+</form>
+`;
+
+exports[`The GuestForm renders as expected error store case 1`] = `
+<form
+  className="sc-bdVaJa brptmd"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="firstName"
+    >
+      Imię
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="lastName"
+    >
+      Nazwisko
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="eventDate"
+    >
+      Data eventu
+    </label>
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-EHOje iuNqqw"
+    type="submit"
+  >
+    Wyślij
+  </button>
+  <div
+    className="sc-ifAKCX fRwpgf"
+  >
+    
+  </div>
+  <div
+    className="sc-bxivhb cxIWBC"
+  >
+    
+  </div>
+</form>
+`;
+
+exports[`The GuestForm renders as expected success store case 1`] = `
+<form
+  className="sc-bdVaJa brptmd"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="firstName"
+    >
+      Imię
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="lastName"
+    >
+      Nazwisko
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="eventDate"
+    >
+      Data eventu
+    </label>
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-EHOje iuNqqw"
+    type="submit"
+  >
+    Wyślij
+  </button>
+  <div
+    className="sc-ifAKCX fRwpgf"
+  >
+    
+  </div>
+  <div
+    className="sc-bxivhb cxIWBC"
+  >
+    
+  </div>
+</form>
+`;
+
+exports[`The GuestForm renders as expected with success true 1`] = `
+<form
+  className="sc-bdVaJa brptmd"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="firstName"
+    >
+      Imię
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="lastName"
+    >
+      Nazwisko
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="sc-bwzfXH cBHVDs"
+      name="email"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="email"
+      value=""
+    />
+  </div>
+  <div
+    className="sc-htpNat iydrW"
+  >
+    <label
+      htmlFor="eventDate"
+    >
+      Data eventu
+    </label>
+    <div
+      className="react-datepicker-wrapper"
+    >
+      <div
+        className="react-datepicker__input-container"
+      >
+        <input
+          className=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          readOnly={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-EHOje iuNqqw"
+    type="submit"
+  >
+    Wyślij
+  </button>
+  <div
+    className="sc-ifAKCX fRwpgf"
+  >
+    
+  </div>
+  <div
+    className="sc-bxivhb cxIWBC"
+  >
+    
+  </div>
+</form>
+`;
