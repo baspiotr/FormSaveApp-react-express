@@ -20,7 +20,7 @@ client:
 
 Description:
 
-Express app with preetier, eslint & babel for ES2017 support. 
+Express app with prettier, eslint & babel for ES2017 support. 
 After yarn dev command babel will tranpile app to \dist folder and run it. 
 
 client and server folders contain config.js file for setup url's
