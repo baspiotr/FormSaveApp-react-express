@@ -3,7 +3,7 @@ const config = {
         url: 'mongodb://localhost/events',
     },
     address: {
-        port: 3000,
+        port: 9000,
     },
 };
 
